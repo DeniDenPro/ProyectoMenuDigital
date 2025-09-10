@@ -1,0 +1,4 @@
+C:\Users\Massoni\Documents\ProyectoSoftware\Ejemplo\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Massoni\Documents\ProyectoSoftware\Ejemplo\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Massoni\Documents\ProyectoSoftware\Ejemplo\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\Massoni\Documents\ProyectoSoftware\Ejemplo\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache

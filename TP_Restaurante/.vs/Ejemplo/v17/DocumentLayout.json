@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP_Restaurante\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5D3FE5D7-7613-4B62-83AB-39B0882FEE29}|Infrastructure\\Infrastructure.csproj|c:\\users\\massoni\\documents\\proyectosoftware\\tp_restaurante\\infrastructure\\querys\\statusquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D3FE5D7-7613-4B62-83AB-39B0882FEE29}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\querys\\statusquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAC4F200-1EF3-4FAD-866F-5472D5855826}|Aplication\\Application.csproj|c:\\users\\massoni\\documents\\proyectosoftware\\tp_restaurante\\aplication\\services\\dishservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAC4F200-1EF3-4FAD-866F-5472D5855826}|Aplication\\Application.csproj|solutionrelative:aplication\\services\\dishservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C6FA111-DE99-4EFF-88C5-DE11DB5A881E}|Ejemplo\\TP_Restaurante.csproj|c:\\users\\massoni\\documents\\proyectosoftware\\tp_restaurante\\ejemplo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0C6FA111-DE99-4EFF-88C5-DE11DB5A881E}|Ejemplo\\TP_Restaurante.csproj|solutionrelative:ejemplo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C6FA111-DE99-4EFF-88C5-DE11DB5A881E}|Ejemplo\\TP_Restaurante.csproj|c:\\users\\massoni\\documents\\proyectosoftware\\tp_restaurante\\ejemplo\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6FA111-DE99-4EFF-88C5-DE11DB5A881E}|Ejemplo\\TP_Restaurante.csproj|solutionrelative:ejemplo\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StatusQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP_Restaurante\\Infrastructure\\Querys\\StatusQuery.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Querys\\StatusQuery.cs",
+              "ToolTip": "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP_Restaurante\\Infrastructure\\Querys\\StatusQuery.cs",
+              "RelativeToolTip": "Infrastructure\\Querys\\StatusQuery.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAADwvwoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T02:37:54.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP_Restaurante\\Ejemplo\\appsettings.json",
+              "RelativeDocumentMoniker": "Ejemplo\\appsettings.json",
+              "ToolTip": "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP_Restaurante\\Ejemplo\\appsettings.json",
+              "RelativeToolTip": "Ejemplo\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-02T17:55:23.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ErrorHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP_Restaurante\\Ejemplo\\Middleware\\ErrorHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "Ejemplo\\Middleware\\ErrorHandlingMiddleware.cs",
+              "ToolTip": "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP_Restaurante\\Ejemplo\\Middleware\\ErrorHandlingMiddleware.cs",
+              "RelativeToolTip": "Ejemplo\\Middleware\\ErrorHandlingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T17:49:15.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DishService.cs",
+              "DocumentMoniker": "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP_Restaurante\\Aplication\\Services\\DishService.cs",
+              "RelativeDocumentMoniker": "Aplication\\Services\\DishService.cs",
+              "ToolTip": "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP_Restaurante\\Aplication\\Services\\DishService.cs",
+              "RelativeToolTip": "Aplication\\Services\\DishService.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAlwFwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T01:35:39.18Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

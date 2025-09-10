@@ -1,0 +1,6 @@
+C:\Users\Massoni\Documents\ProyectoSoftware\Ejemplo\Ejemplo\obj\Debug\net8.0\TP_Restaurante.csproj.AssemblyReference.cache
+C:\Users\Massoni\Documents\ProyectoSoftware\Ejemplo\Ejemplo\obj\Debug\net8.0\TP_Restaurante.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Massoni\Documents\ProyectoSoftware\Ejemplo\Ejemplo\obj\Debug\net8.0\TP_Restaurante.AssemblyInfoInputs.cache
+C:\Users\Massoni\Documents\ProyectoSoftware\Ejemplo\Ejemplo\obj\Debug\net8.0\TP_Restaurante.AssemblyInfo.cs
+C:\Users\Massoni\Documents\ProyectoSoftware\Ejemplo\Ejemplo\obj\Debug\net8.0\TP_Restaurante.csproj.CoreCompileInputs.cache
+C:\Users\Massoni\Documents\ProyectoSoftware\Ejemplo\Ejemplo\obj\Debug\net8.0\TP_Restaurante.MvcApplicationPartsAssemblyInfo.cache
