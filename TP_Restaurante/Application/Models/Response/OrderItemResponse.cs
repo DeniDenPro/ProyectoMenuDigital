@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Application.Models.Response.DishesResponse;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,8 @@ namespace Application.Models.Response
     {
         public long Id { get; set; }
         public int Quantity { get; set; }
-        public string Notes { get; set; }
-        public DateTime CreateDate { get; set; }
+        public string? Notes { get; set; }
+        public GenericResponse Status { get; set; }
+        public DishShortResponse Dish { get; set; }
     }
 }

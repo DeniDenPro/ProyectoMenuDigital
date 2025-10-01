@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP_Restaurante\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP1-Massoni_Denise\\ProyectoMenuDigital\\ProyectoMenuDigital\\TP_Restaurante\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP_Restaurante\\Domain\\Domain.csproj",
+      "projectPath": "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP1-Massoni_Denise\\ProyectoMenuDigital\\ProyectoMenuDigital\\TP_Restaurante\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\Massoni\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP_Restaurante\\Domain\\obj\\",
+      "outputPath": "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP1-Massoni_Denise\\ProyectoMenuDigital\\ProyectoMenuDigital\\TP_Restaurante\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

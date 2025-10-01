@@ -11,5 +11,8 @@ namespace Application.Interfaces.IOrder
     {
         Task<List<Order>> GetAllOrders();
         Task<Order?> GetOrderById(long id);
+        Task<IEnumerable<Order?>> GetOrderFechaStatus(DateTime? from, DateTime? to, int? statusid);
+        Task<Order> GetFullOrderById(long orderId);
+        Task<bool> IsDishInActiveOrder(Guid dishId);
     }
 }

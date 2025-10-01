@@ -1,6 +1,6 @@
 ﻿using Application.Models.Response;
-using Application.Models.Request;
 using FluentValidation;
+using Application.Models.Request.DishesRequest;
 
 namespace Application.Validators
 {

@@ -1,14 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP_Restaurante\\",
+  "WorkspaceRootPath": "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP1-Massoni_Denise\\ProyectoMenuDigital\\ProyectoMenuDigital\\TP_Restaurante\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP_Restaurante\\Application\\Services\\CategoryService\\CategoryExistUseCase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Application\\Services\\CategoryService\\CategoryExistUseCase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29F1453F-CEE4-03C7-7F4A-33741CB4C97D}|TP_Restaurante\\TP_Restaurante.csproj|c:\\users\\massoni\\documents\\proyectosoftware\\tp1-massoni_denise\\proyectomenudigital\\proyectomenudigital\\tp_restaurante\\tp_restaurante\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29F1453F-CEE4-03C7-7F4A-33741CB4C97D}|TP_Restaurante\\TP_Restaurante.csproj|solutionrelative:tp_restaurante\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP_Restaurante\\Application\\Interfaces\\ICategory\\ICategoryExistUseCase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Application\\Interfaces\\ICategory\\ICategoryExistUseCase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29F1453F-CEE4-03C7-7F4A-33741CB4C97D}|TP_Restaurante\\TP_Restaurante.csproj|c:\\users\\massoni\\documents\\proyectosoftware\\tp1-massoni_denise\\proyectomenudigital\\proyectomenudigital\\tp_restaurante\\tp_restaurante\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29F1453F-CEE4-03C7-7F4A-33741CB4C97D}|TP_Restaurante\\TP_Restaurante.csproj|solutionrelative:tp_restaurante\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D3FE5D7-7613-4B62-83AB-39B0882FEE29}|Infrastructure\\Infrastructure.csproj|c:\\users\\massoni\\documents\\proyectosoftware\\tp1-massoni_denise\\proyectomenudigital\\proyectomenudigital\\tp_restaurante\\infrastructure\\querys\\orderquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D3FE5D7-7613-4B62-83AB-39B0882FEE29}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\querys\\orderquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D3FE5D7-7613-4B62-83AB-39B0882FEE29}|Infrastructure\\Infrastructure.csproj|c:\\users\\massoni\\documents\\proyectosoftware\\tp1-massoni_denise\\proyectomenudigital\\proyectomenudigital\\tp_restaurante\\infrastructure\\querys\\orderitemquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D3FE5D7-7613-4B62-83AB-39B0882FEE29}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\querys\\orderitemquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,28 +38,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CategoryExistUseCase.cs",
-              "DocumentMoniker": "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP_Restaurante\\Application\\Services\\CategoryService\\CategoryExistUseCase.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\CategoryService\\CategoryExistUseCase.cs",
-              "ToolTip": "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP_Restaurante\\Application\\Services\\CategoryService\\CategoryExistUseCase.cs",
-              "RelativeToolTip": "Application\\Services\\CategoryService\\CategoryExistUseCase.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAwwBcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP1-Massoni_Denise\\ProyectoMenuDigital\\ProyectoMenuDigital\\TP_Restaurante\\TP_Restaurante\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "TP_Restaurante\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP1-Massoni_Denise\\ProyectoMenuDigital\\ProyectoMenuDigital\\TP_Restaurante\\TP_Restaurante\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "TP_Restaurante\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T01:56:04.648Z",
+              "WhenOpened": "2025-10-01T22:50:27.979Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ICategoryExistUseCase.cs",
-              "DocumentMoniker": "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP_Restaurante\\Application\\Interfaces\\ICategory\\ICategoryExistUseCase.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\ICategory\\ICategoryExistUseCase.cs",
-              "ToolTip": "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP_Restaurante\\Application\\Interfaces\\ICategory\\ICategoryExistUseCase.cs",
-              "RelativeToolTip": "Application\\Interfaces\\ICategory\\ICategoryExistUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP1-Massoni_Denise\\ProyectoMenuDigital\\ProyectoMenuDigital\\TP_Restaurante\\TP_Restaurante\\Program.cs",
+              "RelativeDocumentMoniker": "TP_Restaurante\\Program.cs",
+              "ToolTip": "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP1-Massoni_Denise\\ProyectoMenuDigital\\ProyectoMenuDigital\\TP_Restaurante\\TP_Restaurante\\Program.cs*",
+              "RelativeToolTip": "TP_Restaurante\\Program.cs*",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAgwEgAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T01:54:43.898Z"
+              "WhenOpened": "2025-10-01T22:12:40.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderItemQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP1-Massoni_Denise\\ProyectoMenuDigital\\ProyectoMenuDigital\\TP_Restaurante\\Infrastructure\\Querys\\OrderItemQuery.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Querys\\OrderItemQuery.cs",
+              "ToolTip": "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP1-Massoni_Denise\\ProyectoMenuDigital\\ProyectoMenuDigital\\TP_Restaurante\\Infrastructure\\Querys\\OrderItemQuery.cs",
+              "RelativeToolTip": "Infrastructure\\Querys\\OrderItemQuery.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T21:34:54.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP1-Massoni_Denise\\ProyectoMenuDigital\\ProyectoMenuDigital\\TP_Restaurante\\Infrastructure\\Querys\\OrderQuery.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Querys\\OrderQuery.cs",
+              "ToolTip": "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP1-Massoni_Denise\\ProyectoMenuDigital\\ProyectoMenuDigital\\TP_Restaurante\\Infrastructure\\Querys\\OrderQuery.cs",
+              "RelativeToolTip": "Infrastructure\\Querys\\OrderQuery.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAqwEYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T21:49:33.517Z",
+              "EditorCaption": ""
             }
           ]
         }

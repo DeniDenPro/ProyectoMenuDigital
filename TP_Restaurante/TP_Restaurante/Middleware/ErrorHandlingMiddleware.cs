@@ -1,11 +1,11 @@
 ﻿using Application.Models.Response;
 using Application.Exceptions;
-using Domain.Exceptions;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Http;
 using System.Net;
 using System.Text.Json;
 using System.Threading.Tasks;
+using TP_Restaurante.Exceptions;
 
 namespace TP_Restaurante.Middleware
 {
@@ -47,23 +47,18 @@ namespace TP_Restaurante.Middleware
 
             switch (ex)
             {
-               // case RequiredParameterException:
-               //     statusCode = HttpStatusCode.BadRequest;
-               //     break;
-               // case InvalidParameterException:
-               //     statusCode = HttpStatusCode.BadRequest;
-               //     break;
                 case NotFoundException:
                     statusCode = HttpStatusCode.NotFound;
                     break;
                 case ConflictException:
                     statusCode = HttpStatusCode.Conflict;
                     break;
-                case OrderPriceException:
-                    statusCode = HttpStatusCode.BadRequest;
-                    break;
                 case KeyNotFoundException:
                     statusCode = HttpStatusCode.NotFound;
+                    break;
+                case JsonException:
+                    statusCode = HttpStatusCode.BadRequest;
+                    message = "El formato JSON de la solicitud es inválido. Asegúrate de que los valores booleanos sean 'true' o 'false' sin comillas si no son strings.";
                     break;
                 default:
                     statusCode = HttpStatusCode.InternalServerError;

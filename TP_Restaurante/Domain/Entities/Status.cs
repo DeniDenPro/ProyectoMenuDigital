@@ -12,8 +12,8 @@ namespace Domain.Entities
         public string Name { get; set; }
 
         //Relacion OrderItem
-        public ICollection<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
+        public ICollection<OrderItem> OrderItems { get; set; } 
         //Relacion Order
-        public ICollection<Order> Orders { get; set; } = new List<Order>();
+        public ICollection<Order> Orders { get; set; } 
     }
 }

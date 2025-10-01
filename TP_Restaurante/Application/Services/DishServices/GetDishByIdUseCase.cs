@@ -1,11 +1,14 @@
-﻿g Application.Interfaces.ICategory;
+﻿using Application.Interfaces.ICategory;
 using Application.Interfaces.IDish;
+using Application.Interfaces.IDish.IDishService;
 using Application.Models.Response;
+using Application.Models.Response.DishesResponse;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TP_Restaurante.Exceptions;
 
 namespace Application.Services.DishServices
 {
@@ -25,7 +28,7 @@ namespace Application.Services.DishServices
             var dish = await _query.GetDishById(id);
             if (dish == null)
             {
-                return null;
+                throw new NotFoundException($"El plato con la id {id} no fue encontrado.");
             }
 
             return new DishResponse

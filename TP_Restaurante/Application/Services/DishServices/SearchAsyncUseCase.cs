@@ -1,7 +1,9 @@
-﻿Application.Enums;
+﻿using Application.Enums;
 using Application.Interfaces.ICategory;
 using Application.Interfaces.IDish;
+using Application.Interfaces.IDish.IDishService;
 using Application.Models.Response;
+using Application.Models.Response.DishesResponse;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,13 +24,10 @@ namespace Application.Services.DishServices
             _categoryQuery = categoryQuery;
         }
 
-        public async Task<IEnumerable<DishResponse?>> SearchAsync(string? name, int? categoryId, OrderPrice? priceOrder = OrderPrice.ASC, bool? onlyActive = true)
+        public async Task<IEnumerable<DishResponse?>> SearchAsync(string? name, int? categoryId, OrderPrice? priceOrder = OrderPrice.ASC, bool? onlyActive = null)
         {
 
             var list = await _query.GetAllAsync(name, categoryId, priceOrder, onlyActive);
-
-
-
             return list.Select(dishes => new DishResponse
             {
                 Id = dishes.DishId,

@@ -1,7 +1,10 @@
-﻿using Application.Interfaces.ICategory;
+﻿using Application.Exceptions;
+using Application.Interfaces.ICategory;
 using Application.Interfaces.IDish;
-using Application.Models.Request;
+using Application.Interfaces.IDish.IDishService;
+using Application.Models.Request.DishesRequest;
 using Application.Models.Response;
+using Application.Models.Response.DishesResponse;
 using Domain.Entities;
 using System;
 using System.Collections.Generic;
@@ -25,11 +28,11 @@ namespace Application.Services.DishServices
         public async Task<DishResponse?> CreateDish(DishRequest dishRequest)
         {
             //validaciones
-            var existingDish = await _query.DishExists(dishRequest.Name);
+            var existingDish = await _query.DishExists(dishRequest.Name,null);
 
             if (existingDish)
             {
-                return null;
+                throw new ConflictException($"A dish with this name {dishRequest.Name} already exists.");
             }
             var category = await _categoryQuery.GetCategoryById(dishRequest.Category);
             var dish = new Dish
@@ -39,7 +42,7 @@ namespace Application.Services.DishServices
                 Description = dishRequest.Description,
                 Price = dishRequest.Price,
                 Available = true,
-                ImageUrl = dishRequest.ImageUrl,
+                ImageUrl = dishRequest.Image,
                 CreateDate = DateTime.UtcNow,
                 UpdateDate = DateTime.UtcNow,
                 CategoryId = dishRequest.Category

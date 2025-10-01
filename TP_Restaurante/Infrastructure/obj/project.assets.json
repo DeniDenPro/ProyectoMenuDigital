@@ -47,6 +47,19 @@
           }
         }
       },
+      "FluentValidation/12.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -1500,6 +1513,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Domain": "1.0.0",
+          "FluentValidation": "12.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.19",
           "Microsoft.EntityFrameworkCore.Relational": "8.0.19",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.19"
@@ -1560,6 +1574,21 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "FluentValidation/12.0.0": {
+      "sha512": "8NVLxtMUXynRHJIX3Hn1ACovaqZIJASufXIIFkD0EUbcd5PmMsL1xUD5h548gCezJ5BzlITaR9CAMrGe29aWpA==",
+      "type": "package",
+      "path": "fluentvalidation/12.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.12.0.0.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net8.0/FluentValidation.dll",
+        "lib/net8.0/FluentValidation.xml"
       ]
     },
     "Humanizer.Core/2.14.1": {
@@ -4025,8 +4054,8 @@
     },
     "Application/1.0.0": {
       "type": "project",
-      "path": "../Aplication/Application.csproj",
-      "msbuildProject": "../Aplication/Application.csproj"
+      "path": "../Application/Application.csproj",
+      "msbuildProject": "../Application/Application.csproj"
     },
     "Domain/1.0.0": {
       "type": "project",
@@ -4051,11 +4080,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP_Restaurante\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP1-Massoni_Denise\\ProyectoMenuDigital\\ProyectoMenuDigital\\TP_Restaurante\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP_Restaurante\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP1-Massoni_Denise\\ProyectoMenuDigital\\ProyectoMenuDigital\\TP_Restaurante\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Massoni\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP_Restaurante\\Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP1-Massoni_Denise\\ProyectoMenuDigital\\ProyectoMenuDigital\\TP_Restaurante\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4076,8 +4105,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP_Restaurante\\Aplication\\Application.csproj": {
-              "projectPath": "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP_Restaurante\\Aplication\\Application.csproj"
+            "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP1-Massoni_Denise\\ProyectoMenuDigital\\ProyectoMenuDigital\\TP_Restaurante\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\Massoni\\Documents\\ProyectoSoftware\\TP1-Massoni_Denise\\ProyectoMenuDigital\\ProyectoMenuDigital\\TP_Restaurante\\Application\\Application.csproj"
             }
           }
         }

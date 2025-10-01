@@ -72,10 +72,12 @@ namespace Infrastructure.Data
             modelBuilder.Entity<Order>(entity =>
             {
                 entity.HasKey(s => s.OrderId);
+                entity.Property(e => e.OrderId).ValueGeneratedOnAdd();
+                entity.Property(e => e.DeliveryTo).HasMaxLength(255);
                 //entity.Property(s => s.Notes).HasColumnType("varchar(max)");
-                entity.Property(s => s.Price).IsRequired().HasColumnType("decimal(10,2)");
+                entity.Property(s => s.Price).HasPrecision(18, 2).IsRequired();
                 entity.Property(s => s.CreateDate).IsRequired();
-                entity.Property(s => s.UpdateDate);
+                entity.Property(s => s.UpdateDate).IsRequired();
 
                 //Relacion con DeliveryType
                 entity.HasOne(e => e.DeliveryType)
@@ -98,6 +100,7 @@ namespace Infrastructure.Data
             modelBuilder.Entity<OrderItem>(entity =>
             {
                 entity.HasKey(s => s.OrderItemId);
+                entity.Property(e => e.OrderItemId).ValueGeneratedOnAdd();
                 entity.Property(s => s.Quantity).IsRequired();
                 entity.Property(s => s.CreateDate).IsRequired();
 

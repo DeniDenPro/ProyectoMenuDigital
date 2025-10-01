@@ -22,7 +22,7 @@ namespace Infrastructure.Querys
             _context = context;
         }
 
-        public async Task<IEnumerable<Dish>> GetAllAsync(string? name = null, int? categoryId = null, OrderPrice? priceOrder = OrderPrice.ASC)
+        public async Task<IEnumerable<Dish>> GetAllAsync(string? name = null, int? categoryId = 0, OrderPrice? priceOrder = OrderPrice.ASC, bool? onlyActive = null)
         {
             var query = _context.Dishes.AsNoTracking().AsQueryable();
 
@@ -31,7 +31,7 @@ namespace Infrastructure.Querys
                 query = query.Where(d => d.Name.Contains(name));
             }
 
-            if (categoryId >= 1 && categoryId <= 10)
+            if (categoryId.HasValue)
             {
                 query = query.Where(d => d.CategoryId == categoryId.Value);
             }
@@ -53,9 +53,9 @@ namespace Infrastructure.Querys
                 case true:
                     query = query.Where(d => d.Available == true);
                     break;
-                case false:
-                    query = query.Where(d => d.Available == false);
-                    break;
+            //    case false:
+            //        query = query.Where(d => d.Available == false);
+            //        break;
                 default:
                     break;
             }
@@ -71,12 +71,28 @@ namespace Infrastructure.Querys
         }
         public async Task<Dish?> GetDishById(Guid id)
         {
-            return await _context.Dishes.FindAsync(id).AsTask();
+            return await _context.Dishes
+            .Include(d => d.Category)
+            .FirstOrDefaultAsync(d => d.DishId == id);
         }
 
-        public async Task<bool> DishExists(string name)
+        public async Task<bool> DishExists(string name, Guid? id)
         {
-            return await _context.Dishes.AnyAsync(d => d.Name == name);
+            var query = _context.Dishes.AsQueryable();
+
+            if (id.HasValue)
+            {
+              
+                query = query.Where(d => d.DishId != id.Value);
+            }
+
+            return await query.AnyAsync(d => d.Name == name);
+        }
+        public async Task<List<Dish>> GetDishesByIds(IEnumerable<Guid> ids)
+        {
+            return await _context.Dishes
+            .Where(dish => ids.Contains(dish.DishId) && dish.Available == true)
+            .ToListAsync();
         }
     }
 }

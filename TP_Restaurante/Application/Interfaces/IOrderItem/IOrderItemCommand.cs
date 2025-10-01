@@ -10,7 +10,8 @@ namespace Application.Interfaces.IOrderItem
     public interface IOrderItemCommand
     {
         Task InsertOrderItem(OrderItem orderItem);
+        Task InsertOrderItemRange(List<OrderItem> orderItems);
         Task UpdateOrderItem(OrderItem orderItem);
-        Task RemoveOrderItem(OrderItem orderItem);
+        Task DeleteOrderItems(IEnumerable<OrderItem> items);
     }
 }

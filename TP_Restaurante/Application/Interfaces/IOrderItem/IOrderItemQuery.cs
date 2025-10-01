@@ -10,6 +10,6 @@ namespace Application.Interfaces.IOrderItem
     public interface IOrderItemQuery
     {
         Task<List<OrderItem>> GetAllOrderItems();
-        Task<OrderItem?> GetOrderItemById(long id);
+        Task<OrderItem?> GetOrderItemById(int id);
     }
 }
